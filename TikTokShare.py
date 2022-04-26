@@ -66,10 +66,10 @@ class ShareBot:
                                   timeout=5).url)  # Get url if hostname doesn't match tiktok's
         return parsed_url.path.split("/")[3]
 
-    async def send_share(self) -> (int, Dict[str, Any], bytes):
+    async def send_share(self) -> int:
         """
         Send a share to a video
-        :return: response.status [int], response_json [Dict[str, Any]], response_content [bytes]
+        :return: response.status [int]
         """
 
         platform_ = random.choice(PLATFORMS)
@@ -108,7 +108,7 @@ class ShareBot:
     async def http_get_with_aiohttp_parallel(self, amount: int) -> None:
         """
         Execute several asynchronus aiohttp requests from a URL list
-        :return: results [List[Tuple[int, Dict[str, Any], bytes]]], t [float]
+        :return: None
         """
         # TODO: look for a better implementation of this
         iters_ = 1
