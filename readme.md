@@ -17,12 +17,12 @@ It usually does around `980 requests/s`
 ```js
 * Share botting (up to 980 requests/s)
 * Easy to use (paste video and set the amount)
-* Tested in Windows (must test in Linux)
+* Tested in Windows and Linux
 ```
 
 ## Installation
 * Download the files and access the folder `cd TikTokShareBot`
-* Download _**Python 3**_ and run `pip install -r requirements.txt` inside the repository folder.
+* Download _**Python 3**_ (must be Python 3.10 or higher) and run `pip install -r requirements.txt` inside the repository folder.
 
 Or install the packages manually:
 ```
