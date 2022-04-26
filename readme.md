@@ -10,8 +10,7 @@ This version is based of [TikTokMassBotting](https://github.com/Wizz1337/TikTokM
 ## Performance
 It usually does around `980 requests/s`
 
-<img src="blob:chrome-untrusted://media-app/62807065-9140-49df-8210-d5fbc7cc5015"/>![image](https://user-images.githubusercontent.com/16353807/165242872-e19e18aa-87aa-4b78-a458-22582dd9e7ea.png)
-
+<img src="blob:chrome-untrusted://media-app/ad6ca374-7aeb-4a12-8103-1f660d077d52"/>![image](https://user-images.githubusercontent.com/16353807/165243047-0b12a50d-09c0-4af1-ae14-bf79c9f6acb4.png)
 
 ## Features
 
