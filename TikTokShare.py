@@ -63,7 +63,7 @@ class ShareBot:
         if "vm.tiktok.com" == host or "vt.tiktok.com" == host:
             parsed_url = urlparse(
                 self.session.head(self.get_id_from_url, verify=False, allow_redirects=True,
-                                  timeout=5).url)  # Get url if hostname doesn't match tiktok's
+                                  timeout=5).url)
         return parsed_url.path.split("/")[3]
 
     async def send_share(self) -> int:
