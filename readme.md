@@ -24,7 +24,7 @@ It usually does around `980 requests/s`
 
 ## Installation
 * Download the files and access the folder `cd TikTokShareBot`
-* Download _**Python 3**_ (must be Python 3.10 or higher) and run `pip install -r requirements.txt` inside the repository folder.
+* Download _**Python 3**_ and run `pip install -r requirements.txt` inside the repository folder.
 
 Or install the packages manually:
 ```
