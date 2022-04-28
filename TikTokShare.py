@@ -45,7 +45,6 @@ class ShareVariables:
 
 
 class ShareBot:
-
     def __init__(self, url: str, share_vars: ShareVariables):
         self.clear_url_ = self.get_id_from_url(url)
         self.session = aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False))
