@@ -100,7 +100,8 @@ class ShareBot:
             data=data)
 
         self.share_variables.sent_requests += 1
-        if status := response.status == 200:
+        status = response.status
+        if response.status == 200:
             self.share_variables.successful_requests += 1
         return status
 
